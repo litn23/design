@@ -68,10 +68,12 @@ body {
 }
 
 .title * {
+    text-decoration: none;
     color: #9B8AB4;
 }
 
 .title p {
+    text-decoration: none;
     font-style: italic;
 }
 
@@ -142,9 +144,9 @@ img {
 code {
     margin: 0 0.1em;
     padding: 0.1em 0.2em;
-    border: 1px solid #ccc;
+    border: 1px solid #F2ECF8;
     border-radius: 0.3em;
-    background: #f5f5f5;
+    background: #1F232F;
     font-family: monospace;
     font-size: 0.85rem;
     line-height: 1.9824;
@@ -152,9 +154,9 @@ code {
 
 pre {
     padding: 0 1em;
-    border: 1px solid #ccc;
+    border: 1px solid #F2ECF8;
     border-radius: 0.3em;
-    background: #f5f5f5;
+    background: #1F232F;
 }
 
 pre code {
@@ -173,5 +175,5 @@ blockquote {
     font-style: italic;
     margin-left: 1em;
     padding-left: 1em;
-    border-left: 0.5em solid #f5f5f5;
+    border-left: 0.5em solid #1F232F;
 }
