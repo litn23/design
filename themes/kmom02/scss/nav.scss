@@ -1,0 +1,25 @@
+/* Navigation */
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em 0;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 0 1em;
+    margin: auto;
+}
+
+.nav a:hover {
+    border: 5px solid $background-alternative-color;
+    background-color: $background-alternative-color;
+    border-radius: 10px;
+}
+
+.active a {
+    border: 5px solid $hightlight-color;
+    background-color: $hightlight-color;
+    border-radius: 10px;
+}
